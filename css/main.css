@@ -77,4 +77,46 @@ hr {
 
 }
 
+#headerwrap {
+  background: url(../img/header-bg.jpg) no-repeat center top;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  
+}
+
+
+#headerwrap h1 {
+  margin-top: 100px;
+  color: white;
+  font-size: 70px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+#headerwrap h2 {
+  color: white;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.w {
+  padding-top: 35px;
+  text-align: center;
+}
+
+.w h4 {
+  font-size: 25px;
+}
 
