@@ -30,7 +30,7 @@ p {
   margin-bottom: 25px;
 }
 
-.contered {
+.centered {
   text-align: center;
 
 }
@@ -113,10 +113,89 @@ hr {
 
 .w {
   padding-top: 35px;
-  text-align: center;
 }
 
 .w h4 {
   font-size: 25px;
 }
 
+#dg {
+background: #e0e0e0;  
+padding-top: 70px;
+padding-bottom: 70px;
+text-align: center;
+}
+
+#dg h4{
+  font-size: 40px;
+}
+
+.tilt {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+.wb {
+ padding-top: 35px;
+ margin-bottom: 10px;
+}
+ .wb h4 {
+font-size: 35px;
+ }
+
+ #lg {
+  background: #ebebeb;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+ }
+
+ #lg h4 {
+  font-size: 45px;
+ }
+ #lg img {
+  height: 100%;
+  width: 100%;
+ }
+
+ #r {
+  background: #ff7878;
+  padding-top: 70px;
+  padding-bottom: 70px;
+ }
+
+ #r h4 {
+  color: white;
+  font-size: 45px;
+ }
+
+ #r p {
+  color: white;
+ }
+
+ #f {
+  background: #2d2d2d;
+  padding-top: 30px;
+  padding-bottom: 20px;
+ }
+
+ #f i {
+  color: #bdbdbd;
+  font-size: 30px;
+  padding: 20px;
+
+ }
+
+ #f i:hover {
+  color: #ff7878;
+ }
