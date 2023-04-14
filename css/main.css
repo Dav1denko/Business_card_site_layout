@@ -38,7 +38,10 @@ p {
 .navbar-inverse .navbar-nav > li > a:hover{
   background: #ff7878; 
 }
-
+.navbar-inverse .navbar-nav > li > a > i {
+  padding-right: 5px;
+  font-size: 15px;
+}
 
 
 hr {
