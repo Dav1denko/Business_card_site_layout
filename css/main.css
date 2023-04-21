@@ -74,11 +74,11 @@ hr {
 }
 
 #headerwrap {
-  background: url(../img/header-bg.jpg) no-repeat center top;
-  margin-top: -10px;
+  background: url(../img/main.jpg) no-repeat center top;
+  margin-top: 10px;
   padding-top: 20px;
   text-align: center;
-  background-attachment: relative;
+  background-attachment: scroll;
   background-position: center center;
   min-height: 500px;
   width: 100%;
@@ -87,24 +87,35 @@ hr {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  
-  
+  background-size: cover;  
 }
+
+@media only screen and (max-width: 600px) {
+  #headerwrap {
+    background: url(../img/mainMob.jpg) no-repeat center top;
+
+  }
+ }
+
 
 
 #headerwrap h1 {
-  margin-top: 100px;
-  color: white;
-  font-size: 70px;
-  font-weight: 300;
+  margin-top: 60px;
+  color: #00FFFF;
+  font-size: 75px;
+  font-weight: 700;
   letter-spacing: 3px;
+  border-color: white white;
+  border-style: solid;
+  
 }
-#headerwrap h2 {
-  color: white;
-  font-size: 40px;
+
+#headerwrap ul {
+  color: #00FFFF;
+  font-size: 50px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  list-style-type: none;
 }
 
 .w {
