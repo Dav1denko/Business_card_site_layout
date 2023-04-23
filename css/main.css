@@ -108,6 +108,11 @@ hr {
    
 }
 
+#lastProject:target{
+  padding-top: 80px;
+  margin-top: -80px;
+}
+
 #headerwrap ul {
   color: #00FFFF;
   font-size: 50px;
@@ -117,11 +122,20 @@ hr {
 }
 
 .w {
-  padding-top: 35px;
+  padding-top: 5px;
 }
 
 .w h4 {
+  font-size: 30px;
+}
+
+.w i {
+  font-size: 30px;
+}
+.w p {
   font-size: 25px;
+  border: 3px solid #e0e0e0;
+  padding: 10px;
 }
 
 #dg {
