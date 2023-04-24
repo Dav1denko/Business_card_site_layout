@@ -149,6 +149,16 @@ text-align: center;
   font-size: 40px;
 }
 
+.tilt img {
+  max-width: 300px;
+  max-height: 250px;
+  border: 3px solid #4a4646;
+  
+}
+.tilt h5{
+  font-size: 30px;
+}
+
 .tilt {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -162,6 +172,9 @@ text-align: center;
   -moz-transform: rotate(-10deg);
   -ms-transform: rotate(-10deg);
   transform: rotate(-10deg);
+}
+#dg a {
+  margin-top: 50px;
 }
 
 .wb {
