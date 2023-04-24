@@ -40,7 +40,10 @@ p {
 }
 .navbar-inverse .navbar-nav > li > a > i {
   padding-right: 5px;
-  font-size: 15px;
+  font-size: 20px;
+}
+.navbar-inverse .navbar-nav > li{
+  font-size: 25px;
 }
 
 
@@ -68,7 +71,7 @@ hr {
 .navbar-inverse .navbar-brand {
   color: #999;
   font-weight: bolder;
-  font-size: 22px;
+  font-size: 25px;
   letter-spacing: 1px;
 
 }
@@ -111,6 +114,20 @@ hr {
 #lastProject:target{
   padding-top: 80px;
   margin-top: -80px;
+  -webkit-background-clip: content-box;
+  background-clip:content-box;
+}
+#contacts:target{
+  padding-top: 80px;
+  margin-top: -80px;
+  -webkit-background-clip: content-box;
+  background-clip:content-box;
+}
+#about_me:target{
+  padding-top: 80px;
+  margin-top: -80px;
+  -webkit-background-clip: content-box;
+  background-clip:content-box;
 }
 
 #headerwrap ul {
@@ -178,27 +195,18 @@ text-align: center;
 }
 
 .wb {
- padding-top: 35px;
+ padding-top: 5px;
  margin-bottom: 10px;
 }
  .wb h4 {
-font-size: 35px;
+font-size: 45px;
+padding-bottom: 25px;
  }
-
- #lg {
-  background: #ebebeb;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  text-align: center;
- }
-
- #lg h4 {
-  font-size: 45px;
- }
- #lg img {
-  height: 100%;
-  width: 100%;
- }
+ .wb p {
+  font-size: 25px;
+  border: 3px solid #e0e0e0;
+  padding: 10px;
+   }
 
  #r {
   background: #ff7878;
@@ -211,8 +219,16 @@ font-size: 35px;
   font-size: 45px;
  }
 
- #r p {
+ #r ul {
   color: white;
+  list-style-type: none;
+  border: 3px solid #e0e0e0;
+  padding: 10px;
+  text-decoration: underline;
+  font-size: 25px;
+ }
+ #r a{
+  color: white
  }
 
  #f {
