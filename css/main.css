@@ -194,6 +194,23 @@ text-align: center;
   margin-top: 50px;
 }
 
+#dg_allProject {
+  background: #e0e0e0;  
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+  }
+  
+  
+  #dg_allProject h4{
+    font-size: 40px;
+  }
+  
+  .tilt_allProject h5{
+    font-size: 30px;
+  }
+  
+
 .wb {
  padding-top: 5px;
  margin-bottom: 10px;
