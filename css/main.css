@@ -208,6 +208,9 @@ text-align: center;
   
   .tilt_allProject h5{
     font-size: 30px;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
   }
   
 
