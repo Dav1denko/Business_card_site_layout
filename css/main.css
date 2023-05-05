@@ -180,6 +180,8 @@ text-align: center;
 
 #dg a {
   margin-top: 50px;
+  font-weight: bold;
+font-size: 1.2em;
 }
 
 #dg_allProject {
