@@ -309,10 +309,10 @@ font-size: 1.2em;
  .ShowBtnMoreInfo .tilt_allProject .thumbnail {
 	position: relative;
 }
-#addPopup .modal-title {
+.modal .modal-title {
   font-size: 20px;
 }
-#addPopup .namePopApp {
+.modal .namePopApp {
   border: 1px solid #e0e0e0;
   font-size: 30px;
   display: inline-block;
@@ -325,7 +325,7 @@ font-weight: bold;
 font-size: 1.2em;
 }
 
-#addPopup a{
+.modal a{
   color: #555;
   text-decoration: none;
 }

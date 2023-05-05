@@ -2,8 +2,9 @@ $(function() {
     $('a[data-target^="listLink"]').on('click', function () {
         $('.navbar-collapse').collapse('hide');
     });
-var showAddPopup = function (){    
-    $('#addPopup').modal({
+var showAddPopup = function (){  
+    var idProject = $(this).attr('data-id');  
+    $('#addPopup'+idProject).modal({
         show:true
     });
 };
