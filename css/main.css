@@ -299,9 +299,7 @@ padding-bottom: 25px;
 }
 
 .ShowBtnMoreInfo .desc a {
-text-align: center;	
 font-weight: bold;
-
 font-size: 1.2em;
 }
 
@@ -310,6 +308,21 @@ font-size: 1.2em;
 }
  .ShowBtnMoreInfo .tilt_allProject .thumbnail {
 	position: relative;
+}
+#addPopup .modal-title {
+  font-size: 20px;
+}
+#addPopup .namePopApp {
+  border: 1px solid #e0e0e0;
+  font-size: 30px;
+  display: inline-block;
+  padding: 3px;
+  font-weight: bold;
+}
+
+.modal-footer .btn{ 
+font-weight: bold;
+font-size: 1.2em;
 }
 
 
